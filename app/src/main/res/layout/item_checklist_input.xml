@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Checklist item input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/checklist_item_hint"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/checklist_item_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            tools:text="Buy groceries" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Remove button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_remove_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        app:icon="@drawable/ic_remove"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        style="@style/Widget.Material3.Button.IconButton" />
+
+</LinearLayout>

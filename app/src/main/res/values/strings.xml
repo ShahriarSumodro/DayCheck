@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Day Check</string>
+    
+    <!-- Navigation -->
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_archive">Archive</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Calendar -->
+    <string name="calendar_title">Calendar</string>
+    <string name="day_view_title">Day View</string>
+    <string name="active_notes">Active Notes</string>
+    <string name="completed_notes">Completed Notes</string>
+    
+    <!-- Archive -->
+    <string name="archive_title">Archive</string>
+    <string name="search_notes">Search notes...</string>
+    <string name="filter_all">All</string>
+    <string name="filter_completed">Completed</string>
+    <string name="filter_incomplete">Incomplete</string>
+    <string name="no_archived_notes">No archived notes</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="notifications_section">Notifications</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="enable_notifications_desc">Receive reminders for your notes</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="theme_section">Theme</string>
+    <string name="follow_system_theme">Follow System Theme</string>
+    <string name="follow_system_theme_desc">Automatically switch between light and dark themes</string>
+    <string name="app_info_section">App Info</string>
+    <string name="app_version">Version</string>
+    <string name="clear_data">Clear All Data</string>
+    
+    <!-- Create Note Dialog -->
+    <string name="create_note">Create Note</string>
+    <string name="note_title_hint">Title (optional)</string>
+    <string name="note_body_hint">What\'s on your mind?</string>
+    <string name="note_link_hint">Link (optional)</string>
+    <string name="add_checklist">Add Checklist</string>
+    <string name="add_checklist_desc">Create a list of items to check off</string>
+    <string name="checklist_items">Checklist Items</string>
+    <string name="add_item">Add Item</string>
+    <string name="checklist_item_hint">Enter item</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="add_reminder_desc">Get notified at a specific time</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    
+    <!-- Actions -->
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="restore">Restore</string>
+    <string name="complete">Complete</string>
+    <string name="uncomplete">Uncomplete</string>
+    
+    <!-- Messages -->
+    <string name="note_created">Note created</string>
+    <string name="note_updated">Note updated</string>
+    <string name="note_deleted">Note deleted</string>
+    <string name="note_completed">Note completed</string>
+    <string name="note_restored">Note restored</string>
+    <string name="data_cleared">All data cleared</string>
+    <string name="confirm_clear_data">Are you sure you want to clear all data? This action cannot be undone.</string>
+    
+    <!-- Errors -->
+    <string name="error_generic">Something went wrong</string>
+    <string name="error_network">Network error</string>
+    <string name="error_database">Database error</string>
+    
+    <!-- Date/Time -->
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+    
+    <!-- Reminder -->
+    <string name="reminder">Reminder</string>
+    <string name="reminder_at">Reminder at %1$s</string>
+    
+    <!-- Empty states -->
+    <string name="no_notes_today">No notes for today</string>
+    <string name="no_notes_selected_date">No notes for selected date</string>
+    <string name="create_first_note">Create your first note</string>
+    
+</resources>

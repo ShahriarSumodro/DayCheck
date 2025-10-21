@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_calendar">
+
+    <!-- Calendar Fragment -->
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="com.daycheck.app.ui.fragments.CalendarFragment"
+        android:label="@string/nav_calendar"
+        tools:layout="@layout/fragment_calendar">
+        
+        <action
+            android:id="@+id/action_nav_calendar_to_nav_day"
+            app:destination="@id/nav_day" />
+            
+    </fragment>
+
+    <!-- Day Fragment -->
+    <fragment
+        android:id="@+id/nav_day"
+        android:name="com.daycheck.app.ui.fragments.DayFragment"
+        android:label="@string/day_view_title"
+        tools:layout="@layout/fragment_day">
+        
+        <argument
+            android:name="selectedDate"
+            app:argType="string" />
+            
+        <action
+            android:id="@+id/action_nav_day_to_nav_calendar"
+            app:destination="@id/nav_calendar"
+            app:popUpTo="@id/nav_calendar"
+            app:popUpToInclusive="false" />
+            
+    </fragment>
+
+    <!-- Archive Fragment -->
+    <fragment
+        android:id="@+id/nav_archive"
+        android:name="com.daycheck.app.ui.fragments.ArchiveFragment"
+        android:label="@string/nav_archive"
+        tools:layout="@layout/fragment_archive" />
+
+    <!-- Settings Fragment -->
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.daycheck.app.ui.fragments.SettingsFragment"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>
